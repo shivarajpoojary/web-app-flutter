@@ -41,14 +41,24 @@ class Contact extends StatelessWidget {
               Container(
                 width: 700,
                 child: TextFormField(
+                  
                   decoration: new InputDecoration(
+                  
                     hintText: "Enter Your Email address",
+                    hintStyle: TextStyle(color: Colors.white),
                     border: new OutlineInputBorder(
                       borderRadius: new BorderRadius.circular(10.0),
                       borderSide: new BorderSide(
                         color: Colors.white,
                       ),
                     ),
+                    enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10.0),
+                  borderSide: BorderSide(
+                    color: Colors.white,
+                    width: 2.0,
+                  ),
+                ),
                   ),
                 ),
               ),
